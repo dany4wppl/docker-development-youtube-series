@@ -1,7 +1,7 @@
 # Docker Development Guide
 ## a Youtube Series
 
-Hi! 
+Hi Daniel! 
 
 This is the source code for the YouTube series covering docker-based development workflows.
 
