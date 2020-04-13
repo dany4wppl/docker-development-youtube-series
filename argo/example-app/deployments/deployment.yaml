@@ -10,6 +10,19 @@ data:
 
 ---
 
+apiVersion: v1
+kind: Secret
+metadata:
+  name: mysecret
+type: Opaque
+stringData:
+  secret.json: |-
+    {
+      "api_key" : "somesecretgoeshere"
+    }
+    
+---
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
